@@ -12,7 +12,6 @@ namespace DataLibrary.DTO
         public string State { get; set; }
         public string Zipcode { get; set; }
         public string Country { get; set; }
-
         public DateTime RegistrationDate { get; set; }
     }
 }
