@@ -1,0 +1,14 @@
+﻿@model RegistrationProject.Models.CustomerModel
+
+@{
+    ViewBag.Title = "Confirmation";
+}
+
+@if (Model != null)
+{
+    <h1>Thank you for registering, @Model.FirstName!</h1>
+}
+else
+{
+    <h1>Opps! Looks like you need to register first!</h1>
+}
